@@ -1,0 +1,5 @@
+docker build -t imgjavaaula .
+docker ps -a //mostra as imagens disponiveis
+docker run -d --name javaaula -v /usr/src/projjava:/usr/src/projjava imgjavaaula // Através da imagem "imgjavaaula" eu crio um container com o nome "javaaula"
+docker logs javaaula 
+Alvaro
